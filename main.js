@@ -207,7 +207,7 @@ starGeo.setAttribute(
   new THREE.BufferAttribute(new Float32Array(velocities), 3)
 );
 
-const sprite = new THREE.TextureLoader().load("/textures/star.png");
+const sprite = new THREE.TextureLoader().load("/public/textures/star.png");
 const starMaterial = new THREE.PointsMaterial({
   color: 0xaaaaaa,
   size: 0.7,
