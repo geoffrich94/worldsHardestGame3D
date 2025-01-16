@@ -1,5 +1,5 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js";
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.151.3/examples/jsm/controls/OrbitControls.js";
+import * as THREE from "three"; // This will now be resolved by the import map
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const scene = new THREE.Scene();
 
