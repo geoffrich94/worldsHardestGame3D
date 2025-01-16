@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js";
 import { AmbientLight } from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
